@@ -1,0 +1,64 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.card-type-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 50%;
+}
+.card-type-container .btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+}
+.card-type-container .card-id-input {
+    display: flex;
+    width: 80%;
+}
+.card-type-container .card-id-input input {
+    padding: 15px 25px;
+    width: 80%;
+}
+.card-type-container .card-id-input button {
+    width: 20%;
+}
+.card-type-container .btn-container button {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    width: 80%;
+    height: 100px;
+    background-color: #2E308E;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-type-container .btn-container button:hover {
+    background-color: #7373D8;
+}
+
+.card-type-container .header-container h1 {
+    text-align: center;
+    color: #2E308E;
+    font-weight: bolder;
+ }
+
+.hidden {
+    display: none;
+}
+ 

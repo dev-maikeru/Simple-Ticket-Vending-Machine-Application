@@ -1,0 +1,62 @@
+.discounted-type-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 50%;
+}
+.discounted-type-container button {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    background-color: #2E308E;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.discounted-type-container button:hover {
+    background-color: #7373D8;
+}
+.discounted-type-container h1 {
+    text-align: center;
+    color: #2E308E;
+    font-weight: bolder;
+}
+.discounted-type-container .button-choices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.discounted-type-container .senior-input-container, .discounted-type-container .pwd-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.discounted-type-container .senior-input-container .senior-inputs,
+.discounted-type-container .pwd-input-container .pwd-inputs {
+    display: flex;
+    gap: 1em;
+}
+.discounted-type-container .senior-input-container .senior-inputs .first-two-char {
+    flex-grow: 2;
+}
+.discounted-type-container .senior-input-container .senior-inputs .second-four-char {
+    
+}
+.discounted-type-container .senior-input-container .senior-inputs .third-four-char {
+    flex: 2;
+}
+.discounted-type-container .senior-input-container input,
+.discounted-type-container .pwd-input-container input {
+    font-size: large;
+    padding: 5px 15px;
+}
+.hidden {
+    display: none;
+}
